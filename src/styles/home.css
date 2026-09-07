@@ -1,0 +1,27 @@
+.home-page {
+  display: flex;
+  align-items: center;
+  min-height: calc(100vh - 81px);
+}
+
+.hero {
+  max-width: 800px;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.hero > p:last-child {
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

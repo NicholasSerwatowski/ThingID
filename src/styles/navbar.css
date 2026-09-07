@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 24px;
+
+  border-bottom: 1px solid #ddd;
+}
+
+nav > a {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+nav div {
+  display: flex;
+  gap: 24px;
+}
